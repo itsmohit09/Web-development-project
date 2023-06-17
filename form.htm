@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms HTML</title>
+    <style>
+        #view {
+            width: 500px;
+        }
+
+        #review {}
+
+        #ok {
+            width: 500px;
+        }
+
+        #secondtable {
+            width: 300px;
+        }
+        #actionselect {
+            width: 360px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table border="01">
+            <tr>
+                <td>
+            <tr>
+                <td id="view"><select>
+                        <option> record</option>
+                    </select></td>
+                <td>View:</td>
+                <td id="review"><select>
+                        <option>Review Orders</option>
+                    </select></td>
+            </tr>
+            </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td id="ok">
+                    <p> &#8679;&#x21E9;*- indicates a required field</p>
+                </td>
+                <td><button id="button">Ok</button> <button>Delete</button> <button>Cancel</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Customer:</td>
+                <td id="secondtable"><input type="text"></td>
+                <td>Address:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Employee:</td>
+                <td><input type="text"></td>
+                <td>City:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Order Date:</td>
+                <td><input type="date"></td>
+                <td>Region:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Required Date:</td>
+                <td><input type="date"></td>
+                <td>Postal code:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Shipped Date:</td>
+                <td><input type="text"></td>
+                <td>Ship Country:</td>
+                <td><input type="text"></td>
+            </tr>
+        </table><br>
+        <table border="1">
+             <tr><td>
+        <table>
+            <tr>
+                <td>
+                <select></select>
+            </td>
+            <td>
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button> 
+                </form >
+            </td>
+            <td id="actionselect">New Order Details</td>
+            <td>
+                <Select>
+                    <option value="Action">Action</option>
+                </Select>
+            </td>
+            </tr>
+        </table>
+    </td></tr>
+</table>
+    </div>
+</body>
+
+</html>
